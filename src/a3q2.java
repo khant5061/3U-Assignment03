@@ -47,6 +47,20 @@ public class a3q2 {
         new Thing(kw,3,1);
         new Thing(kw,3,4);
         // 
+        bob.move();
+        while( bob.canPickThing()){
+            bob.pickThing();}
+        
+        for(int ThingsInBackpack = 0; ThingsInBackpack == 1; ThingsInBackpack = ThingsInBackpack + 1){
+            bob.turnLeft();
+            bob.turnLeft();
+            bob.turnLeft();
+            bob.move();
+        }
+     
+       
+        
+            
     
         
 
